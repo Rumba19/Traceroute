@@ -4,7 +4,7 @@ A Python implementation of the traceroute network diagnostic tool using ICMP (In
 
 ## Overview
 
-This program traces the route that packets take from your computer to a destination host across the Internet. It shows each intermediate router (hop) along the path and measures the round-trip time (RTT) to each hop.
+This program traces the route that packets take from the client computer to a destination host across the Internet. It shows each intermediate router (hop) along the path and measures the round-trip time (RTT) to each hop.
 
 ## How It Works
 
