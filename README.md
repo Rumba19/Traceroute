@@ -51,7 +51,7 @@ sudo python3 traceroute.py www.cics.umass.edu
 ## Understanding the Results
 
 ### Successful Hops
-When you see a line like `3 rtt=20 ms 72.14.215.85`, it means:
+When we see a line like `3 rtt=20 ms 72.14.215.85`, it means:
 - This is the 3rd router in the path
 - It took 20 milliseconds for the round trip
 - The router's IP address is 72.14.215.85
@@ -63,7 +63,7 @@ When you see a line like `3 rtt=20 ms 72.14.215.85`, it means:
 - Routers implement rate limiting on ICMP responses
 - Security policies prevent ICMP Time Exceeded messages
 
-**Important**: Timeouts don't mean packets aren't being forwarded - routers still forward your traffic even if they don't respond to traceroute.
+**Important**: Timeouts don't mean packets aren't being forwarded - routers still forward  traffic even if they don't respond to traceroute.
 
 ### Special Messages
 - `(Destination Unreachable)`: The destination cannot be reached
